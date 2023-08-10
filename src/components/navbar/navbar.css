@@ -1,0 +1,82 @@
+.full-navbar{
+    display: flex;
+    padding-top: 35px;
+    justify-content:space-between;
+    width:100%;
+    
+}
+.navbar-details {
+    display: flex;
+    gap: 40px;
+    font-weight: 500;
+    text-align: center;
+    width: max-content;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+.navbar-details p{
+    padding-top: 12px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.logo img{
+    height: 90px;
+    width: 140px;
+}
+.launch-app-btn{
+    border-radius: 8px;
+    border: 1px solid #FFC800;
+    background-color: #FFC800;
+    color: black;
+    padding: 0 40px;
+}
+.menu{
+    display: none;
+}
+
+
+@media only screen and (max-width: 1020px) {
+    .navbar-details p{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        
+        
+    }
+    .icon{
+        border: 1px solid #111111;
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+    .icon img{
+        width: 30px;
+        height: 30px;
+        background-color: #FFC800;
+        border-radius: 50%;
+        
+    }
+    .sidebar{
+        background-color: #111111;
+        height: 200vh;
+        width: 250px;
+        margin-left: 190px;
+        position: absolute;
+        
+
+    }
+    .navbar-details2{
+        display: inline;
+        /* text-align: center; */
+    }
+    .launch-app-btn3{
+        border: #FFC800 1px solid;
+        margin-left:50px;
+        color: white;
+        background-color: #FFC800;
+        border-radius: 8px;
+    }
+  }
